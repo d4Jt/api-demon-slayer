@@ -37,7 +37,7 @@ app.get('/v1', (req, res) => {
 
 				thumbnails.push({
 					name,
-					url: 'http://localhost:8080/v1' + url.split('/wiki')[1],
+					url: 'https://demon-slayer-api-cme9.onrender.com/v1' + url.split('/wiki')[1],
 					image
 				});
 			});
